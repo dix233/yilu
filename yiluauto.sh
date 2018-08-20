@@ -4,7 +4,7 @@ export PATH
 
 #=================================================
 #	System Required: CentOS
-# blog:  https://furyu.xyz
+#     blog: https://furyu.xyz
 #=================================================	
 yum update
 yum install wget
