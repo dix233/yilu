@@ -10,8 +10,8 @@ yum update
 yum install wget
 wget --no-check-certificate https://www.yiluzhuanqian.com/soft/script/mservice_2_5.sh -O mservice.sh
 yum install sudo
-echo -n "请输入你的一路赚钱ID\c"
-read answer
-sudo bash mservice.sh $answer
+read -p "请输入一路赚钱ID:" id
+echo
+sudo bash mservice.sh $id
 
 
